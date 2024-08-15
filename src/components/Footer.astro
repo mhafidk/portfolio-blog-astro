@@ -1,9 +1,36 @@
 ---
-import Social from "./Social.astro";
+
 ---
 
-<footer class="p-6 max-w-screen-xl mx-auto flex justify-center">
-    <Social platform="twitter" username="astrodotbuild" />
-    <Social platform="github" username="withastro" />
-    <Social platform="youtube" username="astrodotbuild" />
+<footer
+    class="p-6 max-w-screen-md mx-auto text-center text-sm border-t block md:flex justify-between items-center"
+>
+    <p class="text-neutral-500">
+        Made with LOVE by <span class="font-mono text-violet-700 font-semibold"
+            >MHK</span
+        >
+    </p>
+    <div class="font-mono mt-2">
+        <a
+            href="mailto:mhafidk@gmail.com"
+            target="_blank"
+            rel="noreferrer"
+            class="font-mono text-violet-700 hover:text-violet-800 border-b border-violet-700"
+            >EMAIL</a
+        >
+        <a
+            href="https://www.github.com/mhafidk"
+            target="_blank"
+            rel="noreferrer"
+            class="font-mono text-violet-700 hover:text-violet-800 border-b border-violet-700"
+            >GITHUB</a
+        >
+        <a
+            href="https://www.linkedin.com/in/mhafidk"
+            target="_blank"
+            rel="noreferrer"
+            class="font-mono text-violet-700 hover:text-violet-800 border-b border-violet-700"
+            >LINKEDIN</a
+        >
+    </div>
 </footer>

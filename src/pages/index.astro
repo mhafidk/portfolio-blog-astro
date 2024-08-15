@@ -1,6 +1,8 @@
 ---
 import BaseLayout from "../layouts/BaseLayout.astro";
 import Blogcard from "../components/Blogcard.astro";
+import Dash from "../components/Dash.astro";
+
 const pageTitle = "Muhammad Hafid Khoirul";
 ---
 
@@ -37,6 +39,7 @@ const pageTitle = "Muhammad Hafid Khoirul";
         <h2 class="text-2xl font-bold font-mono text-violet-700">
             Latest Blog Posts
         </h2>
+        <Dash />
         <div class="mt-6 grid grid-cols-1 gap-12">
             <Blogcard />
             <Blogcard />
@@ -55,6 +58,7 @@ const pageTitle = "Muhammad Hafid Khoirul";
         <h2 class="text-2xl font-bold font-mono text-violet-700">
             Experiences
         </h2>
+        <Dash />
         <div class="mt-6">
             <div class="">
                 <p class="text-xl font-semibold">Backend Engineer</p>
@@ -94,6 +98,7 @@ const pageTitle = "Muhammad Hafid Khoirul";
     </div>
     <div class="mt-24">
         <h2 class="text-2xl font-bold font-mono text-violet-700">Tools</h2>
+        <Dash />
         <div class="mt-6">
             <ul class="list list-inside list-disc">
                 <li>Ruby on Rails</li>
@@ -107,6 +112,7 @@ const pageTitle = "Muhammad Hafid Khoirul";
     </div>
     <div class="mt-24 mb-48" id="contact">
         <h2 class="text-2xl font-bold font-mono text-violet-700">Contact</h2>
+        <Dash />
         <div class="mt-6">
             <p>
                 Have something to say? Ask a question or just say hi, anything!
