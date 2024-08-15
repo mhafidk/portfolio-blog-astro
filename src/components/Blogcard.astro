@@ -1,24 +1,19 @@
 ---
-
+const { post } = Astro.props;
 ---
 
 <div class="">
-    <a href="/posts/post-1" class="text-xl font-bold hover:text-violet-700"
-        >Blog Title</a
+    <a href={post.url} class="text-xl font-bold hover:text-violet-700"
+        >{post.frontmatter.title}</a
     >
     <div class="flex gap-4 text-sm mt-3 text-neutral-500">
-        <div class="flex gap-4">
-            <p>General</p>
-            <p>Programming</p>
-            <p>Go</p>
+        <div class="flex flex-wrap gap-x-4 gap-y-1">
+            {post.frontmatter.tags.map((tag) => <p>{tag}</p>)}
         </div>
     </div>
     <div class="mt-3 line-clamp-4 md:line-clamp-3">
         <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor
-            asperiores exercitationem enim quasi! Officia nulla, laudantium
-            nisi, architecto unde consequatur reprehenderit adipisci incidunt
-            cum, voluptas velit repudiandae. Commodi, maiores natus.
+            {post.frontmatter.description}
         </p>
     </div>
 </div>
