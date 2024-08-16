@@ -1,13 +1,13 @@
 ---
 layout: ../../layouts/MarkdownPostLayout.astro
-title: 'My First Blog Post'
-pubDate: 2022-07-01
+title: "Let's Start!"
+pubDate: 2024-08-16
 description: 'This is the first post of my new Astro blog.'
-author: 'Astro Learner'
+author: 'Muhammad Hafid K'
 image:
-    url: 'https://docs.astro.build/assets/rose.webp'
-    alt: 'The Astro logo on a dark background with a pink glow.'
-tags: ["astro", "blogging", "learning in public"]
+    url: '/turn-over-a-new-leaf.webp'
+    alt: 'Memulai lembar baru'
+tags: ["General"]
 ---
 
 Welcome to my _new blog_ about learning Astro! Here, I will share my learning journey as I build a new website.
