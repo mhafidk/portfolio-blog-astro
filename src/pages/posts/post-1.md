@@ -2,7 +2,8 @@
 layout: ../../layouts/MarkdownPostLayout.astro
 title: "Let's Start!"
 pubDate: 2024-08-16
-description: 'This is the first post of my new Astro blog.'
+description: 'Memulai sesuatu bukanlah hal yang mudah. Tau apa lagi yang lebih sulit dari itu? Yak betul! Konsisten melakukan
+sesuatu yang sudah kita mulai.'
 author: 'Muhammad Hafid K'
 image:
     url: '/turn-over-a-new-leaf.webp'
@@ -10,16 +11,35 @@ image:
 tags: ["General"]
 ---
 
-Welcome to my _new blog_ about learning Astro! Here, I will share my learning journey as I build a new website.
+Memulai sesuatu bukanlah hal yang mudah. Tau apa lagi yang lebih sulit dari itu? Yak betul! Konsisten melakukan
+sesuatu yang sudah kita mulai.
 
-## What I've accomplished
+Ada berbagai macam cara untuk bisa menjadi konsisten. Salah satu cara yang pernah ku gunakan dan menurut ku sangat membantu.
+Meskipun, tidak menjamin akan membuat kita konsisten. Caranya tersebut yaitu, mengumumkan hal yang ingin aku lakukan kepada orang lain!
+Contoh, membuat pengumuman di media sosial kalau aku akan melakukan challenge tertentu 🫣.
 
-1. **Installing Astro**: First, I created a new Astro project and set up my online accounts.
+Kenapa dengan melakukan hal tersebut bisa membantu untuk membuat kita jadi konsisten? Karena dengan mengumumkan ke orang lain, kita
+menjadi seperti punya tanggung jawab, yang mana akan membuat kita lebih terpacu lagi untuk melakukan hal yang sudah kita umumkan.
 
-2. **Making Pages**: I then learned how to make pages by creating new `.astro` files and placing them in the `src/pages/` folder.
+Ayo langsung praktekin!
 
-3. **Making Blog Posts**: This is my first blog post! I now have Astro pages and Markdown posts!
+## Pengumuman! Pengumuman!
 
-## What's next
+Akan ada konten baru di blog ini!
 
-I will finish the Astro tutorial, and then keep adding more posts. Watch this space for more to come.
+Apa tuh?
+
+Ada 2,
+1. **Belajar programming dari awal? Gampang! Ini nih step stepnya!**\
+    Disini aku mau menjelaskan mengenai step by step belajar programming dari nol.
+2. **Let's GO!**\
+    Sedangkan yang ini, aku mau menjelaskan tentang bahasa pemrograman Go. Aku akan bahas
+    dari dasar sampai advance. Masih sejalan sama yang nomor 1, tapi disini hanya akan membahas
+    tentang Go saja.
+
+2 konten diatas akan dishare secara rutin di blog ku ini setiap hari Selasa dan Jumat!
+Hari Selasa untuk konten belajar programming dan hari Jumat untuk konten Go.
+
+Sekian pengumumannya :)
+
+Adiós!
